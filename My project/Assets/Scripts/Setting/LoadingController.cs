@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -30,7 +28,7 @@ public class LoadingController : MonoBehaviour
                 slider.value += Random.Range(0, 0.1f);
                 if(slider.value >= slider.maxValue)
                 {
-                    SceneManager.LoadScene(Setting.nameMap[(int)IndexMap.manHinhChinh]);
+                    SceneManager.LoadScene(SettingController.nameMap[(int)IndexMap.manHinhChinh]);
                 }
             }
         }
