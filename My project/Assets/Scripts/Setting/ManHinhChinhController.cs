@@ -79,4 +79,8 @@ public class ManHinhChinhController : MonoBehaviour
             selectSetting.GetComponent<Image>().sprite = imgBackGround[0];
         }
     }
+    public void ManHinhChinh()
+    {
+        SceneManager.LoadScene(SettingController.nameMap[(int)IndexMap.manHinhChinh]);
+    }
 }
