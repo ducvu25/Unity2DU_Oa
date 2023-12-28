@@ -1,0 +1,373 @@
+fileFormatVersion: 2
+guid: 558ca7d1276b0be4c9bf76557c1bafeb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: anim daily bonus 1_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 109
+        width: 780
+        height: 700
+      alignment: 9
+      pivot: {x: 0.49524304, y: 0.32863644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1abeef6ec0156468bd15e475ac4f0b
+      internalID: -938108281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim daily bonus 1_1
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 104
+        width: 780
+        height: 700
+      alignment: 9
+      pivot: {x: 0.4857292, y: 0.3551392}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48354592a4f0fa44e9832cc2507f4f9d
+      internalID: -483474403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim daily bonus 1_2
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 99
+        width: 780
+        height: 700
+      alignment: 9
+      pivot: {x: 0.4762154, y: 0.38164225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea62b2026fa74274ea014ca2ba787c5d
+      internalID: 1195306013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim daily bonus 1_3
+      rect:
+        serializedVersion: 2
+        x: 2299
+        y: 128
+        width: 780
+        height: 700
+      alignment: 9
+      pivot: {x: 0.46670142, y: 0.37104112}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c109d182ffce06244a3a4c553492f3d8
+      internalID: 324591860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim daily bonus 1_4
+      rect:
+        serializedVersion: 2
+        x: 3059
+        y: 142
+        width: 780
+        height: 700
+      alignment: 9
+      pivot: {x: 0.46194473, y: 0.3551392}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4083be5c8946b784c8ee0a505f5ae7bb
+      internalID: 1927483781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim daily bonus 1_5
+      rect:
+        serializedVersion: 2
+        x: 3897
+        y: 133
+        width: 780
+        height: 700
+      alignment: 9
+      pivot: {x: 0.44291678, y: 0.39224336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dafe5bcd2f9354b4f8227a66c4df1cf0
+      internalID: -344925188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim daily bonus 1_6
+      rect:
+        serializedVersion: 2
+        x: 4692
+        y: 123
+        width: 780
+        height: 700
+      alignment: 9
+      pivot: {x: 0.46670172, y: 0.41344565}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ddfc55a59c3c304fa8157e50dc40a30
+      internalID: -1009621557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim daily bonus 1_7
+      rect:
+        serializedVersion: 2
+        x: 5582
+        y: 137
+        width: 780
+        height: 700
+      alignment: 9
+      pivot: {x: 0.44291678, y: 0.42934754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee7d38965d22a7419051667fe7585f9
+      internalID: 937954316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim daily bonus 1_8
+      rect:
+        serializedVersion: 2
+        x: 6432
+        y: 145
+        width: 780
+        height: 700
+      alignment: 9
+      pivot: {x: 0.4238895, y: 0.43464813}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5508dedef6bd44d4eb69b69123c43460
+      internalID: -1648017142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim daily bonus 1_9
+      rect:
+        serializedVersion: 2
+        x: 7281
+        y: 176
+        width: 780
+        height: 700
+      alignment: 9
+      pivot: {x: 0.42864582, y: 0.4240469}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bdd175d15c7ce545b60662fe408949d
+      internalID: -123075553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      anim daily bonus 1_0: -938108281
+      anim daily bonus 1_1: -483474403
+      anim daily bonus 1_2: 1195306013
+      anim daily bonus 1_3: 324591860
+      anim daily bonus 1_4: 1927483781
+      anim daily bonus 1_5: -344925188
+      anim daily bonus 1_6: -1009621557
+      anim daily bonus 1_7: 937954316
+      anim daily bonus 1_8: -1648017142
+      anim daily bonus 1_9: -123075553
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
