@@ -3,12 +3,16 @@ using System.Collections.Generic;
 
 public static class ItemReader
 {
-    public static List<ItemSO> ReadItems()
+    public static string sSkin = "Skins";
+    public static string sIce = "Ices";
+    public static string sHat = "Hats";
+    public static string sDevice = "Devices";
+    public static List<ItemSO> ReadItems(string s)
     {
         List<ItemSO> itemList = new List<ItemSO>();
 
         // Tìm tất cả các file ItemSO trong thư mục Resources/Items
-        ItemSO[] items = Resources.LoadAll<ItemSO>("Items");
+        ItemSO[] items = Resources.LoadAll<ItemSO>("Items/" + s);
 
         // Lưu danh sách các ItemSO vào itemList
         itemList.AddRange(items);

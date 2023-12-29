@@ -39,6 +39,8 @@ public class DiemDanhController : MonoBehaviour
                 goBtn.transform.GetChild(2).gameObject.SetActive(true);
                 goBtn.GetComponent<Button>().interactable = false;
                 goBtn.GetComponent<Image>().color = color;
+
+                Database.Add(items[index].item, items[index].number);
             });
         }
     }

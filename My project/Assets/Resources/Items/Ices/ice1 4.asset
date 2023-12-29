@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a668f52e7860fb4989db56d41e52929, type: 3}
-  m_Name: Ao_ngu_tim
+  m_Name: ice1 4
   m_EditorClassIdentifier: 
-  id: S3
-  sprite: {fileID: -934283413, guid: 7dbc159edb6488a49bee5dcbc6206eac, type: 3}
-  name: "B\u1ED9 ng\u1EE7 t\xEDm"
+  id: Ice5
+  sprite: {fileID: 2135375628, guid: 27a342888a1255e4da88a0111dedf244, type: 3}
+  name: "M\u1EAFt"
   type: 1
-  price: 50
-  typePrice: 1
+  price: 1
+  typePrice: 0

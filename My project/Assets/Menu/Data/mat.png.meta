@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7dbc159edb6488a49bee5dcbc6206eac
+guid: 27a342888a1255e4da88a0111dedf244
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,421 +136,337 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: vat pham 3  dung co_0
+      name: mat_0
       rect:
         serializedVersion: 2
-        x: 2044
-        y: 110
-        width: 300
-        height: 300
+        x: 760
+        y: 173
+        width: 386
+        height: 598
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da9885e6ab680f246ad7e8f366a77348
-      internalID: -230654117
+      spriteID: 8fb308035d66d1c40964deb3495c870d
+      internalID: 1065939377
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vat pham 3  dung co_2
+      name: mat_1
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 1087
+        width: 179
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3a03d40bc5dac40ae79d6f4c0b7ad7
+      internalID: -791183879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mat_2
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 1085
+        width: 179
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc1e5b1bf2336f4abc6333068ad8b6a
+      internalID: -1171407107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mat_3
+      rect:
+        serializedVersion: 2
+        x: 2273
+        y: 1087
+        width: 179
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4d08ce21decf84580ac9c965cf4d59
+      internalID: 1148510203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mat_4
+      rect:
+        serializedVersion: 2
+        x: 2567
+        y: 1091
+        width: 179
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e995c6e4caa557d408cbce6a82718493
+      internalID: 959743122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mat_5
+      rect:
+        serializedVersion: 2
+        x: 2871
+        y: 1089
+        width: 179
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2f42dd2ee19544bb1080995d4dc5e5
+      internalID: 2135375628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mat_6
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 791
+        width: 179
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b62393d95c1554f9ead69e36cefd8e
+      internalID: 2116096711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mat_7
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 791
+        width: 179
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f44c5746647c764ca2639e6858d8e4c
+      internalID: -1638525883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mat_8
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 791
+        width: 179
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336ae110d9be73d47a15d3d91eb20824
+      internalID: 1768721152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mat_9
+      rect:
+        serializedVersion: 2
+        x: 2563
+        y: 793
+        width: 179
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83502607d090a314fabaa2cbd9832362
+      internalID: 1354461307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mat_10
+      rect:
+        serializedVersion: 2
+        x: 2869
+        y: 805
+        width: 179
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b979ccdae7ad85a45b874057d5a10130
+      internalID: -261907995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mat_11
       rect:
         serializedVersion: 2
         x: 1662
-        y: 127
-        width: 300
-        height: 300
-      alignment: 9
-      pivot: {x: 0.56844485, y: 0.56160146}
+        y: 513
+        width: 179
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81906b3e8a68b7543817bc0a7e301a81
-      internalID: -666977584
+      spriteID: 35a23c42ac68b8249b1db1d39fe5022f
+      internalID: 408835609
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vat pham 3  dung co_3
+      name: mat_12
       rect:
         serializedVersion: 2
-        x: 1285
-        y: 130
-        width: 300
-        height: 300
+        x: 1964
+        y: 523
+        width: 179
+        height: 144
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26d6f0949621e5a42ba8a503cb1b1b48
-      internalID: -1515874371
+      spriteID: 51421100562470b4ea8c9d55284e7524
+      internalID: -467006016
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vat pham 3  dung co_4
+      name: mat_13
       rect:
         serializedVersion: 2
-        x: 2430
-        y: 95
-        width: 300
-        height: 300
+        x: 2268
+        y: 511
+        width: 179
+        height: 144
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7ad39c07f0c0f4468c4c18dec12bbe8
-      internalID: -934283413
+      spriteID: 971186d6bd68cd346b6de93e7489dae1
+      internalID: -1916613161
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vat pham 3  dung co_5
+      name: mat_14
       rect:
         serializedVersion: 2
-        x: 2806
-        y: 75
-        width: 300
-        height: 300
+        x: 2570
+        y: 511
+        width: 179
+        height: 144
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae851f1badbe1ee459a69797299f9c79
-      internalID: -651534853
+      spriteID: ea8d1f9ad2c86644d80b947ddc08421b
+      internalID: 288904903
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vat pham 3  dung co_6
+      name: mat_15
       rect:
         serializedVersion: 2
-        x: 2772
-        y: 475
-        width: 300
-        height: 300
+        x: 2872
+        y: 509
+        width: 179
+        height: 144
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa7d645d73b5fb043818bc7489074805
-      internalID: -687736317
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: vat pham 3  dung co_7
-      rect:
-        serializedVersion: 2
-        x: 2402
-        y: 480
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5684d637c42d19743912bddcaf8785cf
-      internalID: 1698765992
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: vat pham 3  dung co_8
-      rect:
-        serializedVersion: 2
-        x: 2023
-        y: 472
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 114e9383f00302242bf3eb4adbaad8db
-      internalID: -610797819
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: vat pham 3  dung co_9
-      rect:
-        serializedVersion: 2
-        x: 1657
-        y: 477
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2095a940622bca24eafc2ab1fc7df29d
-      internalID: 1164258549
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: vat pham 3  dung co_10
-      rect:
-        serializedVersion: 2
-        x: 1272
-        y: 535
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6a16dfd71b97d0945bc30f0a09d78b15
-      internalID: 490015678
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: vat pham 3  dung co_11
-      rect:
-        serializedVersion: 2
-        x: 1250
-        y: 865
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c9dc0631a4bca704d895f6fc7d8c7498
-      internalID: -1156844592
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: vat pham 3  dung co_12
-      rect:
-        serializedVersion: 2
-        x: 1257
-        y: 1192
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6be6963e906630244a754027752fc6dc
-      internalID: -1437895436
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: vat pham 3  dung co_13
-      rect:
-        serializedVersion: 2
-        x: 1631
-        y: 1181
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 89775418c0f65ae47af3f383bf7e5a71
-      internalID: -259770916
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: vat pham 3  dung co_14
-      rect:
-        serializedVersion: 2
-        x: 1626
-        y: 860
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6263a07df049d70458920c6d94aab803
-      internalID: -1842482175
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: vat pham 3  dung co_15
-      rect:
-        serializedVersion: 2
-        x: 2010
-        y: 820
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 551d9ae25cd9ca545a47231c87b2b0b5
-      internalID: 1864203989
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: vat pham 3  dung co_16
-      rect:
-        serializedVersion: 2
-        x: 2007
-        y: 1178
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: accf252ea6c8c8144a3c00da945bcbbf
-      internalID: 903614453
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: vat pham 3  dung co_17
-      rect:
-        serializedVersion: 2
-        x: 2375
-        y: 1174
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: feb420f95cb92b947bb2198c56c52ba9
-      internalID: 1409060896
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: vat pham 3  dung co_18
-      rect:
-        serializedVersion: 2
-        x: 2383
-        y: 827
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b3d62487ac7ef4745bbe2fa0b5d683cf
-      internalID: -52254865
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: vat pham 3  dung co_19
-      rect:
-        serializedVersion: 2
-        x: 2759
-        y: 832
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9365d447cabf88b439683ad6ab39299e
-      internalID: 1198439252
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: vat pham 3  dung co_20
-      rect:
-        serializedVersion: 2
-        x: 2757
-        y: 1173
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a133621715dcf3944b50d7ddef2893a3
-      internalID: -1605767543
+      spriteID: 55dbb951a3afbbc448645d79b7d353db
+      internalID: -393960172
       vertices: []
       indices: 
       edges: []
@@ -566,27 +482,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      vat pham 3  dung co_0: -230654117
-      vat pham 3  dung co_1: 1404386919
-      vat pham 3  dung co_10: 490015678
-      vat pham 3  dung co_11: -1156844592
-      vat pham 3  dung co_12: -1437895436
-      vat pham 3  dung co_13: -259770916
-      vat pham 3  dung co_14: -1842482175
-      vat pham 3  dung co_15: 1864203989
-      vat pham 3  dung co_16: 903614453
-      vat pham 3  dung co_17: 1409060896
-      vat pham 3  dung co_18: -52254865
-      vat pham 3  dung co_19: 1198439252
-      vat pham 3  dung co_2: -666977584
-      vat pham 3  dung co_20: -1605767543
-      vat pham 3  dung co_3: -1515874371
-      vat pham 3  dung co_4: -934283413
-      vat pham 3  dung co_5: -651534853
-      vat pham 3  dung co_6: -687736317
-      vat pham 3  dung co_7: 1698765992
-      vat pham 3  dung co_8: -610797819
-      vat pham 3  dung co_9: 1164258549
+      mat_0: 1065939377
+      mat_1: -791183879
+      mat_10: -261907995
+      mat_11: 408835609
+      mat_12: -467006016
+      mat_13: -1916613161
+      mat_14: 288904903
+      mat_15: -393960172
+      mat_2: -1171407107
+      mat_3: 1148510203
+      mat_4: 959743122
+      mat_5: 2135375628
+      mat_6: 2116096711
+      mat_7: -1638525883
+      mat_8: 1768721152
+      mat_9: 1354461307
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -9,6 +9,10 @@ public class ManHinhChinhController : MonoBehaviour
     [SerializeField] GameObject selectSetting;
     [SerializeField] GameObject goSetting;
     [SerializeField] Sprite[] imgBackGround;
+
+    [Header("-------Diem danh-------")]
+    [SerializeField] GameObject goDiemDanh;
+
     [Header("-------Button---------")]
     [SerializeField] Sprite[] imgBtn;
     [SerializeField] GameObject goBtn;
@@ -17,6 +21,7 @@ public class ManHinhChinhController : MonoBehaviour
     void Start()
     {
         goSetting.SetActive(false);
+        goDiemDanh.SetActive(false);
     }
 
     // Update is called once per frame
@@ -42,7 +47,7 @@ public class ManHinhChinhController : MonoBehaviour
     }
     public void PhanThuongHangNgay()
     {
-
+        goDiemDanh.SetActive(!goDiemDanh.activeSelf);
     }
     public void TinTuc()
     {
