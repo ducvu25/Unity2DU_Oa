@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 742061d6677fc3146a16876dc7def211
+guid: 03aa1eee96b624b4a9454af319c0c998
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -134,70 +134,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: vat pham 1_0
-      rect:
-        serializedVersion: 2
-        x: 1524
-        y: 0
-        width: 1657
-        height: 1592
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2e7c3f77d0b99a2409e8d3759ba265c7
-      internalID: 965156710
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: vat pham 1_1
-      rect:
-        serializedVersion: 2
-        x: 571
-        y: 1371
-        width: 104
-        height: 161
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cce806c835eefef489529e8b202a7784
-      internalID: -1973754979
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: vat pham 1_2
-      rect:
-        serializedVersion: 2
-        x: 632
-        y: 60
-        width: 843
-        height: 1740
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4499384c71f7f96488fdb8811ae9b268
-      internalID: -1456377118
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -208,10 +145,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      vat pham 1_0: 965156710
-      vat pham 1_1: -1973754979
-      vat pham 1_2: -1456377118
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

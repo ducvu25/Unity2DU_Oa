@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a668f52e7860fb4989db56d41e52929, type: 3}
+  m_Name: Hat 15
+  m_EditorClassIdentifier: 
+  id: D16
+  sprite: {fileID: -783206750, guid: 44475157a70309542957b5b5e8c8ef92, type: 3}
+  name: "\u0110\u1ED3 c\u1EA7m tay"
+  type: 1
+  price: 1
+  typePrice: 0

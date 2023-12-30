@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using Unity.VisualScripting;
+using System;
 
 public class ShopController : MonoBehaviour
 {
@@ -16,13 +18,23 @@ public class ShopController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Invoke("Init", 1f);
+    }
+    void Init()
+    {
         Database.LoadData();
         Show(Database.skins);
-        for (int i=0; i<goParentBtnType.childCount; i++)
+        for (int i = 0; i < goParentBtnType.childCount; i++)
         {
             int index = i;
+            goParentBtnType.GetChild(i).GetComponent<Image>().color = new Color32(255, 255, 255, 0);
             goParentBtnType.GetChild(i).GetComponent<Button>().onClick.AddListener(() => {
                 type = index;
+                for (int j = 0; j < goParentBtnType.childCount; j++)
+                {
+                    goParentBtnType.GetChild(j).GetComponent<Image>().color = new Color32(255, 255, 255, 0);
+                }
+                goParentBtnType.GetChild(index).GetComponent<Image>().color = new Color32(255, 255, 255, 255);
                 switch (type)
                 {
                     case 0:
@@ -48,6 +60,7 @@ public class ShopController : MonoBehaviour
                 }
             });
         }
+        goParentBtnType.GetChild(0).GetComponent<Image>().color = new Color32(255, 255, 255, 255);
     }
 
     void Show(List<ItemSO> items)

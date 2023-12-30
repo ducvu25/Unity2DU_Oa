@@ -1,3 +1,4 @@
+using System.Runtime;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -13,6 +14,21 @@ public class ManHinhChinhController : MonoBehaviour
     [Header("-------Diem danh-------")]
     [SerializeField] GameObject goDiemDanh;
 
+    [Header("--------Shop-------")]
+    [SerializeField] GameObject goShop;
+
+    [Header("-------Tin tuc--------")]
+    [SerializeField] GameObject goTinTuc;
+
+    [Header("-------TK cua bn--------")]
+    [SerializeField] GameObject goTkCuaBn;
+
+    [Header("-------Ds bb--------")]
+    [SerializeField] GameObject goBB;
+
+    [Header("-------Out player--------")]
+    [SerializeField] GameObject goOutPlayer;
+
     [Header("-------Button---------")]
     [SerializeField] Sprite[] imgBtn;
     [SerializeField] GameObject goBtn;
@@ -22,28 +38,31 @@ public class ManHinhChinhController : MonoBehaviour
     {
         goSetting.SetActive(false);
         goDiemDanh.SetActive(false);
+        goShop.SetActive(false);
+        goTinTuc.SetActive(false);
+        goTkCuaBn.SetActive(false);
+        goBB.SetActive(false);
+        goOutPlayer.SetActive(false);
     }
-
-    // Update is called once per frame
-   /* void Update()
+    public void TkCuaBan()
     {
-        
-    }*/
-    public void DsBB()
-    {
-
+        goTkCuaBn.SetActive(!goTkCuaBn.activeSelf);
     }
     public void Setting()
     {
         goSetting.SetActive(!goSetting.activeSelf);
     }
-    public void ThayDo()
+    public void BanBe()
     {
-
+        goBB.SetActive(!goBB.activeSelf);
     }
     public void NgonNgu()
     {
 
+    }
+    public void OutPlayer()
+    {
+        goOutPlayer.SetActive(!goOutPlayer.activeSelf);
     }
     public void PhanThuongHangNgay()
     {
@@ -51,7 +70,7 @@ public class ManHinhChinhController : MonoBehaviour
     }
     public void TinTuc()
     {
-
+        goTinTuc.SetActive(!goTinTuc.activeSelf);
     }
     public void Exit()
     {
@@ -63,7 +82,7 @@ public class ManHinhChinhController : MonoBehaviour
     }
     public void BoSuuTap()
     {
-
+        goShop.SetActive(!goShop.activeSelf);
     }
     public void HuongDan()
     {
