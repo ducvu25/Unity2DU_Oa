@@ -11,6 +11,8 @@ public class PlayerController : MonoBehaviour
     Animator animator;
     Vector2 move;
     bool die;
+    [SerializeField] GameObject goPlayer2 = null;
+    [SerializeField] float distance = 10;
     // Start is called before the first frame update
     void Start()
     {
@@ -48,7 +50,7 @@ public class PlayerController : MonoBehaviour
                 Flip();
             move.x = 1;
         }
-        if(Input.GetKey(KeyCode.S) && !type) {
+        if(Input.GetKey(KeyCode.R) && !type && goPlayer2 != null && Vector2.Distance(transform.position, goPlayer2.transform.position) < distance) {
             die = true;
             animator.SetTrigger("Die");
             Invoke("InstacteGhost", 1f);
@@ -65,9 +67,11 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetBool("Type", type);
             animator.SetBool("Run", true);
+            AudioController.instance.Play(type ? (int)EffectAudio.run1 : (int)EffectAudio.run2);
         }
         else
         {
+            AudioController.instance.Stop(type ? (int)EffectAudio.run1 : (int)EffectAudio.run2);
             animator.SetBool("Run", false);
         }
         rigidbody2D.velocity = move*speed;

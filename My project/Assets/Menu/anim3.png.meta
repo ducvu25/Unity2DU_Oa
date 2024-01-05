@@ -1,0 +1,417 @@
+fileFormatVersion: 2
+guid: 21afb3ac5bffb4e4ab9026587de2d914
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: anim3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 490.33334
+        height: 804
+      alignment: 9
+      pivot: {x: 0.57002807, y: 0.41458446}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff0c52fb1b976944b6864661fcfe3e5
+      internalID: -984834952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim3_1
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 0
+        width: 490.33334
+        height: 804
+      alignment: 9
+      pivot: {x: 0.57002795, y: 0.42739677}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac0d349323d50e43aac38761c057586
+      internalID: -2136282679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim3_2
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 0
+        width: 490.33334
+        height: 804
+      alignment: 9
+      pivot: {x: 0.55602247, y: 0.43593833}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74bd6cf8ef5e0548aee7c500553c766
+      internalID: -722924766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim3_3
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 0
+        width: 490.33334
+        height: 804
+      alignment: 9
+      pivot: {x: 0.59103656, y: 0.43593833}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b4bfd8e6ec9ec4ea484ea5675c093b
+      internalID: -1444460646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim3_4
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 0
+        width: 490.33334
+        height: 804
+      alignment: 9
+      pivot: {x: 0.6190478, y: 0.4188552}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b700895bfa7ff94490456fb1051c949
+      internalID: 1660860907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim3_5
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 0
+        width: 490.33334
+        height: 804
+      alignment: 9
+      pivot: {x: 0.6260504, y: 0.43593833}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6470ac2f3beab4aba166f5885ed1bd
+      internalID: -120721939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim3_6
+      rect:
+        serializedVersion: 2
+        x: 2940
+        y: 0
+        width: 490.33334
+        height: 804
+      alignment: 9
+      pivot: {x: 0.6050427, y: 0.42739677}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ed358514314e84588a533fc0f554a2
+      internalID: 1104576309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim3_7
+      rect:
+        serializedVersion: 2
+        x: 3430
+        y: 0
+        width: 490.33334
+        height: 804
+      alignment: 9
+      pivot: {x: 0.6330535, y: 0.42312598}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3facf2bd38fed5d489cce90a1ddd5424
+      internalID: 1976317437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim3_8
+      rect:
+        serializedVersion: 2
+        x: 3920
+        y: 0
+        width: 490.33334
+        height: 804
+      alignment: 9
+      pivot: {x: 0.63305247, y: 0.43593833}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c5afec9687ade48bde754ce119192e
+      internalID: 465492424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim3_9
+      rect:
+        serializedVersion: 2
+        x: 4410
+        y: 0
+        width: 490.33334
+        height: 804
+      alignment: 9
+      pivot: {x: 0.6050422, y: 0.4188552}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c82cacd1d07534287ac11ced84b134
+      internalID: -1551868629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim3_10
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 0
+        width: 490.33334
+        height: 804
+      alignment: 9
+      pivot: {x: 0.61904734, y: 0.41458446}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db046fe2136c41e4ab52c09869065fb9
+      internalID: -2058824548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim3_11
+      rect:
+        serializedVersion: 2
+        x: 5390
+        y: 0
+        width: 490.33334
+        height: 804
+      alignment: 9
+      pivot: {x: 0.61204475, y: 0.41458446}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c64b950da6289846862aad643e16f88
+      internalID: 506508946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      anim3_0: -984834952
+      anim3_1: -2136282679
+      anim3_10: -2058824548
+      anim3_11: 506508946
+      anim3_2: -722924766
+      anim3_3: -1444460646
+      anim3_4: 1660860907
+      anim3_5: -120721939
+      anim3_6: 1104576309
+      anim3_7: 1976317437
+      anim3_8: 465492424
+      anim3_9: -1551868629
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
