@@ -2,10 +2,10 @@ public enum IndexMap
 {
     loading,
     manHinhChinh,
-    shop,
-    play
+    play,
+    huongDan
 }
 public static class SettingController 
 {
-    public static string[] nameMap = { "loading", "manHinhChinh", "shop", "play" };
+    public static string[] nameMap = { "loading", "manHinhChinh", "play", "huongDan" };
 }

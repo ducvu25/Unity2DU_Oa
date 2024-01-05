@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -144,7 +144,7 @@ TextureImporter:
         width: 1657
         height: 1592
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -160,12 +160,12 @@ TextureImporter:
       name: vat pham 1_1
       rect:
         serializedVersion: 2
-        x: 571
+        x: 576
         y: 1371
-        width: 104
-        height: 161
+        width: 73
+        height: 132
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -181,10 +181,10 @@ TextureImporter:
       name: vat pham 1_2
       rect:
         serializedVersion: 2
-        x: 632
-        y: 60
-        width: 843
-        height: 1740
+        x: 76
+        y: 1215
+        width: 501
+        height: 420
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,6 +194,48 @@ TextureImporter:
       bones: []
       spriteID: 4499384c71f7f96488fdb8811ae9b268
       internalID: -1456377118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vat pham 1_3
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 704
+        width: 550
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e875db3e235a84ba4561ef45b2250b
+      internalID: 2001289549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vat pham 1_4
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 175
+        width: 550
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa8b820de1512d46bf8f32c73bf1dfd
+      internalID: -1312907242
       vertices: []
       indices: 
       edges: []
@@ -212,6 +254,8 @@ TextureImporter:
       vat pham 1_0: 965156710
       vat pham 1_1: -1973754979
       vat pham 1_2: -1456377118
+      vat pham 1_3: 2001289549
+      vat pham 1_4: -1312907242
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -7,6 +7,7 @@ public static class ItemReader
     public static string sIce = "Ices";
     public static string sHat = "Hats";
     public static string sDevice = "Devices";
+    public static string sCard = "Cards";
     public static List<ItemSO> ReadItems(string s)
     {
         List<ItemSO> itemList = new List<ItemSO>();
@@ -16,7 +17,7 @@ public static class ItemReader
 
         // Lưu danh sách các ItemSO vào itemList
         itemList.AddRange(items);
-
+        Debug.Log(s + " " + itemList.Count);
         return itemList;
     }
     public static ItemSO Search(List<ItemSO> a, string id)

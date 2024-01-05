@@ -5,14 +5,16 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] float speed;
-
+    [SerializeField] bool type = true;
     bool facingRight = false;
     Rigidbody2D rigidbody2D;
     Animator animator;
     Vector2 move;
+    bool die;
     // Start is called before the first frame update
     void Start()
     {
+        die = false;
         rigidbody2D = GetComponent<Rigidbody2D>();  
         animator = GetComponent<Animator>();
     }
@@ -20,27 +22,36 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (die)
+        {
+            return; 
+        }
         CheckInPut();
         UpdateAnimation();
     }
     void CheckInPut()
     {
         move = Vector2.zero;
-        if (Input.GetKey(KeyCode.UpArrow))
+        if ((Input.GetKey(KeyCode.UpArrow) && type) || (Input.GetKey(KeyCode.W) && !type))
             move.y = 1;
-        if (Input.GetKey(KeyCode.DownArrow))
+        if ((Input.GetKey(KeyCode.DownArrow) && type) || (Input.GetKey(KeyCode.Z) && !type))
             move.y = -1;
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if ((Input.GetKey(KeyCode.LeftArrow) && type) || (Input.GetKey(KeyCode.A) && !type))
         {
             if (facingRight)
                 Flip();
             move.x = -1;
         }
-        if (Input.GetKey(KeyCode.RightArrow))
+        if ((Input.GetKey(KeyCode.RightArrow) && type) || (!type && Input.GetKey(KeyCode.D)))
         {
             if (!facingRight)
                 Flip();
             move.x = 1;
+        }
+        if(Input.GetKey(KeyCode.S) && !type) {
+            die = true;
+            animator.SetTrigger("Die");
+            Invoke("InstacteGhost", 1f);
         }
     }
     void Flip()
@@ -52,6 +63,7 @@ public class PlayerController : MonoBehaviour
     {
         if(move != Vector2.zero)
         {
+            animator.SetBool("Type", type);
             animator.SetBool("Run", true);
         }
         else
@@ -60,5 +72,10 @@ public class PlayerController : MonoBehaviour
         }
         rigidbody2D.velocity = move*speed;
 
+    }
+    void InstacteGhost()
+    {
+        transform.GetChild(0).gameObject.SetActive(false);
+        GameController.instance.Die(transform.position);
     }
 }

@@ -7,9 +7,7 @@ using UnityEngine.UI;
 public class ManHinhChinhController : MonoBehaviour
 {
     [Header("-------Setting--------")]
-    [SerializeField] GameObject selectSetting;
     [SerializeField] GameObject goSetting;
-    [SerializeField] Sprite[] imgBackGround;
 
     [Header("-------Diem danh-------")]
     [SerializeField] GameObject goDiemDanh;
@@ -29,10 +27,6 @@ public class ManHinhChinhController : MonoBehaviour
     [Header("-------Out player--------")]
     [SerializeField] GameObject goOutPlayer;
 
-    [Header("-------Button---------")]
-    [SerializeField] Sprite[] imgBtn;
-    [SerializeField] GameObject goBtn;
-    Color32[] clBtn = { new Color32(71, 2, 107, 255), new Color32(3, 83, 1, 255) };
     // Start is called before the first frame update
     void Start()
     {
@@ -72,10 +66,6 @@ public class ManHinhChinhController : MonoBehaviour
     {
         goTinTuc.SetActive(!goTinTuc.activeSelf);
     }
-    public void Exit()
-    {
-        Application.Quit();
-    }
     public void ChoiNhanh()
     {
         SceneManager.LoadScene(SettingController.nameMap[(int)IndexMap.play]);
@@ -86,37 +76,14 @@ public class ManHinhChinhController : MonoBehaviour
     }
     public void HuongDan()
     {
-
+        SceneManager.LoadScene(SettingController.nameMap[(int)IndexMap.huongDan]);
     }
     public void TaoPhong()
     {
 
     }
-    public void ChooseSetting(int value)
+    public void Quit()
     {
-        for(int i=0; i<goBtn.transform.childCount; i++)
-        {
-            goBtn.transform.GetChild(i).transform.GetChild(0).GetComponent<TextMeshProUGUI>().color = clBtn[0];
-            goBtn.transform.GetChild(i).transform.GetComponent<Button>().image.sprite = imgBtn[0];
-        }
-        goBtn.transform.GetChild(value).transform.GetChild(0).GetComponent<TextMeshProUGUI>().color = clBtn[1];
-        goBtn.transform.GetChild(value).transform.GetComponent<Button>().image.sprite = imgBtn[1];
-        for (int i=1; i<selectSetting.transform.childCount; i++)
-        {
-            selectSetting.transform.GetChild(i).gameObject.SetActive(false);
-        }
-        selectSetting.transform.GetChild(value + 1).gameObject.SetActive(true);
-        if(value == 2)
-        {
-            selectSetting.GetComponent<Image>().sprite = imgBackGround[1];
-        }
-        else
-        {
-            selectSetting.GetComponent<Image>().sprite = imgBackGround[0];
-        }
-    }
-    public void ManHinhChinh()
-    {
-        SceneManager.LoadScene(SettingController.nameMap[(int)IndexMap.manHinhChinh]);
+        Application.Quit();
     }
 }

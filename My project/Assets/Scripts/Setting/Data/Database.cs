@@ -8,6 +8,7 @@ public static class Database
     public static List<ItemSO> ices;
     public static List<ItemSO> devices;
     public static List<ItemSO> users;
+    public static List<ItemSO> cards;
     public static ItemSO[] player = {null, null, null}; 
     public static int[] coins = { 0, 0 };
     public static void LoadData()
@@ -16,6 +17,7 @@ public static class Database
         hats = ItemReader.ReadItems(ItemReader.sHat);
         ices = ItemReader.ReadItems(ItemReader.sIce);
         devices = ItemReader.ReadItems(ItemReader.sDevice);
+        cards = ItemReader.ReadItems(ItemReader.sCard);
         users = new List<ItemSO>();
         coins[0] = 1000;
         coins[1] = 1000;
