@@ -5,7 +5,7 @@ using UnityEngine;
 public class HuongDanController : MonoBehaviour
 {
     string[] mes = { "Sử dụng phím mũi tên sang trái/phải hoặc phím A/D để di chuyển sang trái hoặc phải.",
-                     "Sử dụng phím mũi tên lên/xuống hoặc phím W/Z để di chuyển lên hoặc xuống.",
+                     "Sử dụng phím mũi tên lên/xuống hoặc phím W/S để di chuyển lên hoặc xuống.",
                      "Nếu bạn là \"Kẻ ngoại lai\" hãy sử dụng phím R để tấn công người chơi.",
                      "Nhiệm vụ của người chơi là hoàn thành các nhiệm vụ trong bản đồ hoặc tìm ra \"Kẻ ngoại lai\"."};
     public float[] time;

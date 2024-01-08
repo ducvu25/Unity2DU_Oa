@@ -33,6 +33,8 @@ public class VongXoay : MonoBehaviour
         "bạn có thể nhìn xuyên tường",
         "bạn chiến thắng nếu là người cuối cùng sống sót, bạn có thể nuốt toàn bộ người chơi mà không thấy xác cho đến khi bắt đầu cuộc họp"};
     int i;
+    string[] phe = { "Chính diện", "Trung lập", "Phản diện" };
+    int[] type = { 0, 0, 1, 0, 2, 0, 2, 0, 0, 2, 0, 2, 0, 0, 1 };
     private void Start()
     {
         i = 2;
@@ -77,6 +79,6 @@ public class VongXoay : MonoBehaviour
     public void Show()
     {
         txtInformation.transform.gameObject.SetActive(true);
-        txtInformation.Show(information[i]);
+        txtInformation.Show(information[i] + "\nPhe: " + phe[type[i]]);
     }
 }

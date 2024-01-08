@@ -24,17 +24,17 @@ public class GhostController : MonoBehaviour
     void CheckInPut()
     {
         move = Vector2.zero;
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.UpArrow))
             move.y = 1;
-        if (Input.GetKey(KeyCode.Z))
+        if (Input.GetKey(KeyCode.DownArrow))
             move.y = -1;
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
             if (facingRight)
                 Flip();
             move.x = -1;
         }
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.RightArrow))
         {
             if (!facingRight)
                 Flip();

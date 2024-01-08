@@ -36,7 +36,7 @@ public class PlayerController : MonoBehaviour
         move = Vector2.zero;
         if ((Input.GetKey(KeyCode.UpArrow) && type) || (Input.GetKey(KeyCode.W) && !type))
             move.y = 1;
-        if ((Input.GetKey(KeyCode.DownArrow) && type) || (Input.GetKey(KeyCode.Z) && !type))
+        if ((Input.GetKey(KeyCode.DownArrow) && type) || (Input.GetKey(KeyCode.S) && !type))
             move.y = -1;
         if ((Input.GetKey(KeyCode.LeftArrow) && type) || (Input.GetKey(KeyCode.A) && !type))
         {
@@ -50,7 +50,7 @@ public class PlayerController : MonoBehaviour
                 Flip();
             move.x = 1;
         }
-        if(Input.GetKey(KeyCode.R) && !type && goPlayer2 != null && Vector2.Distance(transform.position, goPlayer2.transform.position) < distance) {
+        if(Input.GetKey(KeyCode.R) && type && goPlayer2 != null && Vector2.Distance(transform.position, goPlayer2.transform.position) < distance) {
             die = true;
             animator.SetTrigger("Die");
             Invoke("InstacteGhost", 1f);
