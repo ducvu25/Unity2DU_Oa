@@ -154,7 +154,7 @@ public class ShopController : MonoBehaviour
             goBtn.transform.GetChild(3).GetComponent<Button>().onClick.AddListener(() => {
                 if (Database.Buy(items[index].price, items[index].typePrice))
                 {
-                    Database.Add(items[i]);
+                    Database.Add(items[index]);
                     goBtn.transform.GetChild(1).gameObject.SetActive(false);
                     goBtn.transform.GetChild(3).gameObject.SetActive(false);
                     goBtn.transform.GetChild(2).GetComponent<TextMeshProUGUI>().text = "Đã sở hữu";
@@ -165,7 +165,7 @@ public class ShopController : MonoBehaviour
                 player.GetChild(type).GetComponent<Image>().sprite = items[index].sprite;
                 if (Database.Check(items[index]))
                 {
-                    Database.Used(items[i], type);
+                    Database.Used(items[index], type);
                 }
             });
         }

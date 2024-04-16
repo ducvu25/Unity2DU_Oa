@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
     bool die;
     [SerializeField] GameObject goPlayer2 = null;
     [SerializeField] float distance = 10;
+    bool checkCauThang = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -43,12 +44,16 @@ public class PlayerController : MonoBehaviour
             if (facingRight)
                 Flip();
             move.x = -1;
+            if (checkCauThang)
+                move.y = 0.2f;
         }
         if ((Input.GetKey(KeyCode.RightArrow) && type) || (!type && Input.GetKey(KeyCode.D)))
         {
             if (!facingRight)
                 Flip();
             move.x = 1;
+            if (checkCauThang)
+                move.y = -0.2f;
         }
         if(Input.GetKey(KeyCode.R) && type && goPlayer2 != null && Vector2.Distance(transform.position, goPlayer2.transform.position) < distance) {
             die = true;
@@ -81,5 +86,21 @@ public class PlayerController : MonoBehaviour
     {
         transform.GetChild(0).gameObject.SetActive(false);
         GameController.instance.Die(transform.position);
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("CauThang"))
+        {
+            print("ok");
+            checkCauThang = true;
+        }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("CauThang"))
+        {
+            print("no");
+            checkCauThang = false;
+        }
     }
 }
